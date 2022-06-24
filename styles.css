@@ -1,6 +1,7 @@
 body {
     display: block;
-    margin: 0;
+    
+    margin: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -10,7 +11,17 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-    padding-inline: 200px;
+    padding-top: 10px;
+    padding-inline: 350px;
+    height: 100px;
+}
+
+.header img{
+
+    width: auto; 
+    max-height: 100%; 
+    padding: 10px;
+
 }
 
 .links{
@@ -44,7 +55,7 @@ a{
     display: flex;
     justify-content: space-between;
     
-    padding-inline: 200px;
+    padding-inline: 350px;
     padding-block: 130px;
 }
 
@@ -92,6 +103,7 @@ h1{
     display: flex;
     justify-content: center;
     gap: 70px;
+    height: 900px;
 }
 
 .info{
@@ -99,6 +111,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 }
 .info .text{
@@ -106,42 +119,56 @@ h1{
     
 }
 
-.info .img{
+.info img{
     display: block;
+    height: auto;
+    max-width: 100%; 
+    padding: 10px;
 }
 
 #randominfo {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     color: #1f2937;
     
 }
 
 .bottom_body{
     padding-inline: 60px;
-    padding-block: 60px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
 }
 
+.bottom_body img{
+    height: 500px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #container3{
     
-    width: 600px;
+   
 }
 
 #quote{
     text-align: center;
     font-size: 30px;
     font-style: italic;
+    margin-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
 #subquote{
     text-align: right;
     font-weight: bold;
+    margin-bottom: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .blueparent{
